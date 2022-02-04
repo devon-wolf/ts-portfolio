@@ -1,5 +1,6 @@
 import React from 'react';
-import { BIO, TITLES } from '../constants/siteContent';
+import { BIO } from '../constants/bio';
+import { TITLES } from '../constants/siteContent';
 import Page from '../layout/Page';
 
 const Bio = (): JSX.Element => {
