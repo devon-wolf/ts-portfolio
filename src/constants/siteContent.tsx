@@ -17,7 +17,7 @@ export const HEADER_NAV = [
 export const FOOTER_NAV = [{ path: '/about-site', text: TITLES.ABOUT_SITE }];
 export const COPYRIGHT = `© 2022 ${NAME}`;
 
-const makeNewTabLink = (href: string, text: string) => {
+const makeNewTabLink = (href: string, text: string): JSX.Element => {
   return <a href={href} target="_blank"
   rel="noopener noreferrer">{text}</a>
 }

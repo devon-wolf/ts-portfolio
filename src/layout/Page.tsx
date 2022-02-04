@@ -5,7 +5,7 @@ export interface PageProps {
   children?: JSX.Element | JSX.Element[];
 }
 
-const Page = ({ title, children }: PageProps) => {
+const Page = ({ title, children }: PageProps): JSX.Element => {
   return (
     <main>
       <h2>{title}</h2>

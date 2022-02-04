@@ -5,7 +5,8 @@ export interface HeaderProps {
   headerTitle: string;
   headerNavLinks: Array<{ path: string; text: string }>;
 }
-const Header = ({ headerTitle, headerNavLinks }: HeaderProps) => {
+
+const Header = ({ headerTitle, headerNavLinks }: HeaderProps): JSX.Element => {
   return (
     <header>
       <h1>{headerTitle}</h1>
